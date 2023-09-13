@@ -1,0 +1,30 @@
+{
+  "name": "om-nodejs",
+  "version": "0.0.1",
+  "description": "基于nodejs的运维项目",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon -x ts-node-esm test/demo.ts",
+    "test": "echo \"Errocr: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abc3660170/om-nodejs.git"
+  },
+  "author": "tchen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abc3660170/om-nodejs/issues"
+  },
+  "homepage": "https://github.com/abc3660170/om-nodejs#readme",
+  "dependencies": {
+    "zx": "^7.2.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1",
+    "prettier": "^3.0.3",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2"
+  }
+}
